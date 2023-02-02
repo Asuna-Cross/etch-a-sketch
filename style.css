@@ -8,7 +8,10 @@
 }
 
 .row {
-    margin: 0px;
+    flex:1;
     background: white;
     text-align: center;
+    border: 1px;
+    border-color: black;
+    border-style:solid;
 }
