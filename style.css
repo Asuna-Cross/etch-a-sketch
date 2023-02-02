@@ -1,22 +1,14 @@
-.container{
-    max-width: 960px;
-    max-height: 960px;
-    padding: 5px;
-    background-color: aqua;
+.grid {
+    display: flex;   /* <--- required */
+
 }
 
-.row{
-    display:flex;
-    flex-direction:row;
-    flex-grow:1;
+.column {
+    flex: 1; /* <--- required (style column to fill the same space as the other columns) */
 }
 
-.gridsquare{
-    display:flex;
-    flex-grow:1;
-    padding: 0px;
+.row {
     margin: 0px;
-    border-width : 1px;
-    border-color: black;
-    border-style: solid;
+    background: white;
+    text-align: center;
 }
